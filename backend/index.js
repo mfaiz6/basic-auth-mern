@@ -3,6 +3,10 @@ const app = express()
 const port = 1337
 
 
+app.post("/api/register", (req, res) => {
+    console.log(req.body.name)
+})
+
 
 
 
